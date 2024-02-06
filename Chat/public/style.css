@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+h1,h2,p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#div-Logo{
+  display: inline-flex;
+  width: 100%;
+}
+#p-Nome{
+  display: none;
+  font-size: 20px;
+  margin-right: 0.3rem;
+}
+
+button{
+  margin-left: 0.3rem;
+  background-color: rgb(62, 231, 62);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 20%;
+  border: none;
+}
+
+header{
+  z-index: 1;
+  display: inline-flex;
+  height: 5rem;
+  width: 100%;
+  background-color: darkcyan;
+}& img{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  height: 3rem;
+  width: auto;
+}
+#div-InformarNome{
+  border: solid black 0.1rem;
+  margin-top: 5rem;  
+  justify-content: center; 
+  display: inline-block;
+  box-shadow: 0 0 1rem;
+  padding: 10px;
+  border-radius: 5%;
+}& #text-Nome{
+  border: solid black 0.1rem;
+  height: 1.5rem;
+  width: 15rem;  
+}
+
+#div-Aplicação{
+  border-color: solid black 2px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 33.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;  
+  display: none;
+}
+
+#div-Chat{
+  background-color: lightgray;
+  height: 25rem;
+  width: 33.5rem;
+  border-radius: 5%;
+  box-shadow: 0 0 1rem;
+  padding: 1rem;
+}
+
+#div-Mensagem{
+  margin-top: 1rem;
+  align-items: center;
+  display: inline-flex;
+}& #text-CaixaMsg{
+  border: solid black 0.1rem;
+  height: 1.5rem;
+  width: 30rem;
+}
+
+#ul-Chat{
+  list-style-type: none;
+}& .li-Transmissor{
+  border: solid black 0.1rem;
+  margin-left: 50%;
+  margin-top: 0.5rem;
+}& .li-Receptor{
+  border: solid black 0.1rem;
+  margin-top: 0.5rem;
+  margin-right: 50%;  
+}
