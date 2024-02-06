@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    align-items: center;
+}
+
+#div-todasInformações{
+    width: 20rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    display: inline-flex;    
+}
+
+header{
+    position: sticky;
+    z-index: 1;
+    align-items: center;
+    display: flex;    
+    background-color: gray;
+    width: auto;
+    height: 70px;
+}
+
+header h1{
+    position: relative;
+    padding-left: 2rem;
+}
+
+h1, h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header img{
+    padding-left: 3rem;
+    width: auto;
+    height: 50px;
+}
+
+
+#h1-Titulo{
+    width: 20rem;
+    font-size: 2rem;
+}
+
+
+input[type="radio"]{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.label-Cores{
+    display: inline-flex;
+    margin: 0.3rem;
+    height: 1.5rem;
+}
+
+#div-Cores input[type="radio"]:checked + label {
+    border-radius: 10%;
+    border: 0.1rem solid #0066cc;
+}
+
+#div-opçãoTamanho{
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.label-Tamanho{
+    display: inline-flex;
+    height: 5rem;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#div-opçãoTamanho input[type="radio"]:checked + label {
+    border: 0.1rem solid black;
+}
+
+#div-Comprar h2{
+    font-size: 18px;
+}
+
+#btn-Comprar{
+    border: solid 0.1rem black;
+    width: 100%;
+    height: 2.5rem;
+    background-color: darkolivegreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#div-ImagensRelogio{
+    margin-left: 8rem;
+    border: 0.1rem solid black;
+}
+
+#img-Vizualização{
+    height: 20rem;
+}
+
+#div-imagensMiniaturas{   
+    width: 100%;
+    justify-content: center;    
+    display: inline-flex;
+}
+
+#div-imagensMiniaturas img{
+    height: 3rem;
+}
+
+#div-imagensMiniaturas input[type="radio"]:checked + label {
+    border-bottom: 0.1rem solid gray;
+}
+
+.caixaPequena{
+    transform: scale(0.9);
+}

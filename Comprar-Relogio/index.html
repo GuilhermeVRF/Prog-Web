@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Jabaria's clock</title>
+</head>
+<body>
+    <header>
+
+        <img src="./imagens/icone-Relogio.png" alt="Ícone de relógio">
+        <div>
+            <h1>Jabaria's clock</h1>
+        </div>
+    </header>   
+        <div id="div-todasInformações">
+            <div id="div-informaçõesTextuais">
+                <h1 id="h1-Titulo">Relógio Apple Watch cor Azul Inverno de tamanho 45mm</h1>
+
+                <div id="div-Cores">
+                    <h2 id="h2-subTituloCor">Cor - Azul Inverno</h2>              
+                        <input type="radio" name="opçãoCores" id="radio-AzulInverno" value="0" onclick="trocarCor()" checked><label for="radio-AzulInverno" class="label-Cores"><img src="./imagens/cores-Radio/azul-inverno.jpeg"></label>
+                        <input type="radio" name="opçãoCores" id="radio-Estelar" value="1" onclick="trocarCor()"><label for="radio-Estelar"  class="label-Cores"><img src="./imagens/cores-Radio/estelar.jpeg"></label>
+                        <input type="radio" name="opçãoCores" id="radio-MeiaNoite" value="2" onclick="trocarCor()"><label for="radio-MeiaNoite" class="label-Cores"><img src="./imagens/cores-Radio/meia-noite.jpeg"></label>
+                        <input type="radio" name="opçãoCores" id="radio-RosaClaro" value="3" onclick="trocarCor()"><label for="radio-RosaClaro"  class="label-Cores"><img src="./imagens/cores-Radio/rosa-claro.jpeg"></label>
+                        <input type="radio" name="opçãoCores" id="radio-VerdeCipreste" value="4" onclick="trocarCor()"><label for="radio-VerdeCipreste"  class="label-Cores"><img src="./imagens/cores-Radio/verde-cipreste.jpeg"></label>
+                </div>
+                
+                <div id="div-opçãoTamanho">
+                    <input type="radio" name="opçãoTamanho" id="radio-41mm" value="0" onclick="trocarTamanho()"><label for="radio-41mm" class="label-Tamanho">41 mm</label>
+                    <input type="radio" name="opçãoTamanho" id="radio-45mm" value="1" onclick="trocarTamanho()" checked><label for="radio-45mm" class="label-Tamanho">45 mm</label>             
+
+                </div>
+
+                <div id="div-Comprar">
+                    <h2>Preço - R$480,00</h2>
+                    <button id="btn-Comprar">Comprar</button>
+                </div>
+            </div>
+
+            <div id="div-ImagensRelogio">               
+                <img id="img-Vizualização" src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-1.jpeg">
+                <div id="div-imagensMiniaturas">
+                    <input type="radio" name="opçãoMiniaturas" id="radio-Imagem0" value="0" onclick="trocarImagem()"><label for="radio-Imagem0" class="label-Miniatura"><img id="img-Miniatura0"src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-0.jpeg"></label>
+                    <input type="radio" name="opçãoMiniaturas" id="radio-Imagem1" value="1" onclick="trocarImagem()" checked><label for="radio-Imagem1" class="label-Miniatura"><img id="img-Miniatura1" src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-1.jpeg"></label>
+                    <input type="radio" name="opçãoMiniaturas" id="radio-Imagem2" value="2" onclick="trocarImagem()"><label for="radio-Imagem2" class="label-Miniatura"><img id="img-Miniatura2" src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-2.jpeg"></label>                                      
+                </div>
+            </div>
+        </div>    
+</body>
+</html>
